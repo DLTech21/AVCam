@@ -74,6 +74,8 @@
 - (NSUInteger) micCount;
 - (void) autoFocusAtPoint:(CGPoint)point;
 - (void) continuousFocusAtPoint:(CGPoint)point;
+- (void) autoExposureAtPoint:(CGPoint)point;
+- (void) continuousExposureAtPoint:(CGPoint)point;
 
 @end
 

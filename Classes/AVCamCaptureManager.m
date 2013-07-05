@@ -400,6 +400,42 @@ bail:
 	}
 }
 
+// Perform an auto exposure at the specified point. The exposure mode will automatically change to locked once the auto exposure is complete.
+- (void) autoExposureAtPoint:(CGPoint)point
+{
+    AVCaptureDevice *device = [[self videoInput] device];
+    if ([device isExposurePointOfInterestSupported] && [device isExposureModeSupported:AVCaptureExposureModeAutoExpose]) {
+        NSError *error;
+        if ([device lockForConfiguration:&error]) {
+            [device setExposurePointOfInterest:point];
+            [device setExposureMode:AVCaptureExposureModeAutoExpose];
+            [device unlockForConfiguration];
+        } else {
+            if ([[self delegate] respondsToSelector:@selector(captureManager:didFailWithError:)]) {
+                [[self delegate] captureManager:self didFailWithError:error];
+            }
+        }
+    }
+}
+
+// Switch to continuous auto exposure mode at the specified point
+- (void) continuousExposureAtPoint:(CGPoint)point
+{
+    AVCaptureDevice *device = [[self videoInput] device];
+	
+    if ([device isExposurePointOfInterestSupported] && [device isFocusModeSupported:AVCaptureExposureModeContinuousAutoExposure]) {
+		NSError *error;
+		if ([device lockForConfiguration:&error]) {
+			[device setExposurePointOfInterest:point];
+			[device setExposureMode:AVCaptureExposureModeContinuousAutoExposure];
+			[device unlockForConfiguration];
+		} else {
+			if ([[self delegate] respondsToSelector:@selector(captureManager:didFailWithError:)]) {
+                [[self delegate] captureManager:self didFailWithError:error];
+			}
+		}
+	}
+}
 @end
 
 

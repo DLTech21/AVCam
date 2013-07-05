@@ -1,0 +1,595 @@
+TAVCam
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/Info.plist AVCam-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/AVCam.app/ResourceRules.plist
+cCompileXIB /Users/donal/develop/AVCam/Resources/MainWindow.xib
+cCompileXIB /Users/donal/develop/AVCam/Resources/AVCamViewController.xib
+cCopyStringsFile /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/English.lproj/Localizable.strings Resources/English.lproj/Localizable.strings
+cProcessPCH /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-fefzfktbpivozuejxatdidlduofu/AVCam_Prefix.pch.pth AVCam_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-aicryrsxjjpddmffdiomililgylf/AVCam_Prefix.pch.pth AVCam_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/main.o /Users/donal/develop/AVCam/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamViewController.o /Users/donal/develop/AVCam/Classes/AVCamViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamCaptureManager.o /Users/donal/develop/AVCam/Classes/AVCamCaptureManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamRecorder.o /Users/donal/develop/AVCam/Classes/AVCamRecorder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamUtilities.o /Users/donal/develop/AVCam/Classes/AVCamUtilities.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/main.o /Users/donal/develop/AVCam/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamViewController.o /Users/donal/develop/AVCam/Classes/AVCamViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamRecorder.o /Users/donal/develop/AVCam/Classes/AVCamRecorder.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamCaptureManager.o /Users/donal/develop/AVCam/Classes/AVCamCaptureManager.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamUtilities.o /Users/donal/develop/AVCam/Classes/AVCamUtilities.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCam normal armv7s
+cLd /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCam normal armv7
+cCreateUniversalBinary /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/AVCam normal "armv7 armv7s"
+cGenerateDSYMFile /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app.dSYM /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/AVCam
+cProcessProductPackaging "/Users/donal/Library/MobileDevice/Provisioning Profiles/5D454940-E274-4880-996F-E47E48F79165.mobileprovision" /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/donal/Library/MobileDevice/Provisioning Profiles/5D454940-E274-4880-996F-E47E48F79165.mobileprovision" /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/embedded.mobileprovision
+cTouch /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam.xcent
+cCodeSign /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000050ED385D0000000000000110
+t1357723741
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c0000000050F4C99E00000000000001A7
+t1358219678
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c0000000050F4C99E00000000000001E5
+t1358219678
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000050F4C9A6000000000036CDF0
+t1358219686
+s3591664
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000050F4C9A5000000000003AE00
+t1358219685
+s241152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050F4C9A90000000000322700
+t1358219689
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000050F4C9AA00000000001694D0
+t1358219690
+s1479888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000050F4C9AA0000000000041310
+t1358219690
+s267024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050F4C9AB000000000062AD10
+t1358219691
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050F4C9AB00000000000015F7
+t1358219691
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c0000000050F4C9AE000000000048AAE0
+t1358219694
+s4762336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c0000000050F4C9AF00000000005807F0
+t1358219695
+s5769200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000050F4C9B0000000000012C360
+t1358219696
+s1229664
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000050F4C9B100000000003596B0
+t1358219697
+s3511984
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000050F4C9B30000000000000E8D
+t1358219699
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050F4C9B400000000011BCDF0
+t1358219700
+s18599408
+
+N/Users/donal/Library/MobileDevice/Provisioning Profiles/5D454940-E274-4880-996F-E47E48F79165.mobileprovision
+c0000000051CBCFA90000000000003748
+t1372311465
+s14152
+
+N/Users/donal/develop/AVCam/AVCam_Prefix.pch
+c000000004D6D42340000000000000A2C
+t1299006004
+s2604
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/donal/develop/AVCam/Classes/AVCamCaptureManager.h
+c0000000051D68EDD00000000000010FD
+t1373015773
+s4349
+
+N/Users/donal/develop/AVCam/Classes/AVCamCaptureManager.m
+c0000000051D6C0990000000000005D05
+t1373028505
+s23813
+
+N/Users/donal/develop/AVCam/Classes/AVCamRecorder.h
+c000000004D6D42340000000000000E54
+t1299006004
+s3668
+
+N/Users/donal/develop/AVCam/Classes/AVCamRecorder.m
+c000000004D6D423400000000000015DE
+t1299006004
+s5598
+
+N/Users/donal/develop/AVCam/Classes/AVCamUtilities.h
+c000000004D6D42340000000000000AE7
+t1299006004
+s2791
+
+N/Users/donal/develop/AVCam/Classes/AVCamUtilities.m
+c000000004D6D42340000000000000BBC
+t1299006004
+s3004
+
+N/Users/donal/develop/AVCam/Classes/AVCamViewController.h
+c000000004D6D42340000000000000D5A
+t1299006004
+s3418
+
+N/Users/donal/develop/AVCam/Classes/AVCamViewController.m
+c0000000051D694EF000000000000486B
+t1373017327
+s18539
+
+N/Users/donal/develop/AVCam/Resources/AVCamViewController.xib
+c000000004D6849C8000000000000760F
+t1298680264
+s30223
+
+N/Users/donal/develop/AVCam/Resources/English.lproj/Localizable.strings
+c000000004D6849C80000000000000528
+t1298680264
+s1320
+
+N/Users/donal/develop/AVCam/Resources/MainWindow.xib
+c000000004D6849C80000000000005A2F
+t1298680264
+s23087
+
+N/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam.xcent
+t1373011129
+s416
+
+N/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCam
+t1373017329
+s95396
+
+N/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCam.LinkFileList
+c0000000051D67CB80000000000000225
+t1373011128
+s549
+
+N/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamCaptureManager.o
+t1373015899
+s91216
+
+N/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamRecorder.o
+t1373011129
+s30072
+
+N/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamUtilities.o
+t1373011129
+s14316
+
+N/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamViewController.o
+t1373017329
+s140812
+
+N/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/main.o
+t1373011129
+s3992
+
+N/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCam
+t1373017329
+s95400
+
+N/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCam.LinkFileList
+c0000000051D67CB8000000000000022A
+t1373011128
+s554
+
+N/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamCaptureManager.o
+t1373015899
+s91216
+
+N/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamRecorder.o
+t1373011129
+s30072
+
+N/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamUtilities.o
+t1373011129
+s14316
+
+N/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamViewController.o
+t1373017329
+s140812
+
+N/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/main.o
+t1373011129
+s3992
+
+N/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app
+t1373017329
+s374
+
+N/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app.dSYM
+t1373017329
+s102
+
+N/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/AVCam
+t1373017329
+s216320
+
+N/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/AVCamViewController.nib
+t1373011129
+s1787
+
+N/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/English.lproj/Localizable.strings
+t1373011128
+s232
+
+N/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/Info.plist
+t1373011128
+s965
+
+N/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/MainWindow.nib
+t1373011128
+s1032
+
+N/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/PkgInfo
+t1373011128
+s8
+
+N/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/ResourceRules.plist
+t1373011128
+s485
+
+N/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/embedded.mobileprovision
+t1373011129
+s14152
+
+N/Users/donal/develop/AVCam/main.m
+c000000004D6D42340000000000000AAF
+t1299006004
+s2735
+
+N/var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-aicryrsxjjpddmffdiomililgylf/AVCam_Prefix.pch.pth
+t1373011129
+s4599840
+
+N/var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-fefzfktbpivozuejxatdidlduofu/AVCam_Prefix.pch.pth
+t1373011129
+s4599788
+
+NAVCam-Info.plist
+c0000000051D679270000000000000448
+t1373010215
+s1096
+
+CBuild AST from /Users/donal/develop/AVCam/Classes/AVCamCaptureManager.m
+r0
+
+CBuild AST from /Users/donal/develop/AVCam/Classes/AVCamRecorder.m
+r0
+
+CBuild AST from /Users/donal/develop/AVCam/Classes/AVCamUtilities.m
+r0
+
+CBuild AST from /Users/donal/develop/AVCam/Classes/AVCamViewController.m
+r0
+
+CBuild AST from /Users/donal/develop/AVCam/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies93e5f4e80b87b741^5c5407e90b87b741^-540"Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: &#20029;&#33459; &#24352; (T8Z6UD4VCE)', 'iPhone Developer: Donal Tong (HM8L236T98)' -- 'iPhone Developer: &#20029;&#33459; &#24352; (T8Z6UD4VCE)' will be used.Code Sign warning: code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: &#20029;&#33459; &#24352; (T8Z6UD4VCE)', 'iPhone Developer: Donal Tong (HM8L236T98)' -- 'iPhone Developer: &#20029;&#33459; &#24352; (T8Z6UD4VCE)' will be used.2(21%IDEActivityLogMessage2@250"Code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: &#20029;&#33459; &#24352; (T8Z6UD4VCE)', 'iPhone Developer: Donal Tong (HM8L236T98)' -- 'iPhone Developer: &#20029;&#33459; &#24352; (T8Z6UD4VCE)' will be used.-394726376#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-20"Code Signing Warning--2@250"Code-signing identity 'iPhone Developer' matches multiple identities : 'iPhone Developer: &#20029;&#33459; &#24352; (T8Z6UD4VCE)', 'iPhone Developer: Donal Tong (HM8L236T98)' -- 'iPhone Developer: &#20029;&#33459; &#24352; (T8Z6UD4VCE)' will be used.-394726376#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-20"Code Signing Warning--0#1#0#--18"Check dependencies36"C9C5DB3E-B5ED-47C5-9322-4BF07697C0C9-
+
+CCodeSign /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app
+s394726378.071964
+e394726378.270672
+r1
+xCodeSign
+x/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"CodeSign build/Debug-iphoneos/AVCam.appbb9812ea0b87b741^d34a45ea0b87b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/0000000000000000^728"CodeSign build/Debug-iphoneos/AVCam.app    cd /Users/donal/develop/AVCam    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign ddfa9f73c7e8327c9389e7308c9ea73673deaf2c --resource-rules=/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/ResourceRules.plist --entitlements /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam.xcent /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app36"9273EFE7-8FC7-46CC-94D6-4442CBEE1C43-
+
+CCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamCaptureManager.o /Users/donal/develop/AVCam/Classes/AVCamCaptureManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394726377.071732
+e394726377.762821
+r1
+xCompileC
+xbuild/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamCaptureManager.o
+x/Users/donal/develop/AVCam/Classes/AVCamCaptureManager.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/donal/develop/AVCam/Classes/AVCamCaptureManager.m6ee012e90b87b741^cf49c3e90b87b741^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/donal/develop/AVCam/Classes/AVCamCaptureManager.m0000000000000000^3087"CompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamCaptureManager.o Classes/AVCamCaptureManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/donal/develop/AVCam    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-generated-files.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-own-target-headers.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-all-target-headers.hmap -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-project-headers.hmap -I/Users/donal/develop/AVCam/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources/armv7 -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources -F/Users/donal/develop/AVCam/build/Debug-iphoneos -include /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-fefzfktbpivozuejxatdidlduofu/AVCam_Prefix.pch -MMD -MT dependencies -MF /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamCaptureManager.d --serialize-diagnostics /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamCaptureManager.dia -c /Users/donal/develop/AVCam/Classes/AVCamCaptureManager.m -o /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamCaptureManager.o36"CBB3A099-F93C-4C8C-A5AC-561244FCB187-
+
+CCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamRecorder.o /Users/donal/develop/AVCam/Classes/AVCamRecorder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394703929.545193
+e394703929.619544
+r1
+xCompileC
+xbuild/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamRecorder.o
+x/Users/donal/develop/AVCam/Classes/AVCamRecorder.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/donal/develop/AVCam/Classes/AVCamRecorder.m61a88b39b486b741^4e9a9e39b486b741^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/donal/develop/AVCam/Classes/AVCamRecorder.m0000000000000000^3051"CompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamRecorder.o Classes/AVCamRecorder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/donal/develop/AVCam    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-generated-files.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-own-target-headers.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-all-target-headers.hmap -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-project-headers.hmap -I/Users/donal/develop/AVCam/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources/armv7 -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources -F/Users/donal/develop/AVCam/build/Debug-iphoneos -include /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-fefzfktbpivozuejxatdidlduofu/AVCam_Prefix.pch -MMD -MT dependencies -MF /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamRecorder.d --serialize-diagnostics /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamRecorder.dia -c /Users/donal/develop/AVCam/Classes/AVCamRecorder.m -o /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamRecorder.o36"2C7719D6-4049-4352-B8D6-667F41DDAC0B-
+
+CCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamUtilities.o /Users/donal/develop/AVCam/Classes/AVCamUtilities.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394703929.545196
+e394703929.614767
+r1
+xCompileC
+xbuild/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamUtilities.o
+x/Users/donal/develop/AVCam/Classes/AVCamUtilities.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/donal/develop/AVCam/Classes/AVCamUtilities.md6a88b39b486b741^0b619d39b486b741^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/donal/develop/AVCam/Classes/AVCamUtilities.m0000000000000000^3057"CompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamUtilities.o Classes/AVCamUtilities.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/donal/develop/AVCam    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-generated-files.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-own-target-headers.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-all-target-headers.hmap -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-project-headers.hmap -I/Users/donal/develop/AVCam/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources/armv7 -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources -F/Users/donal/develop/AVCam/build/Debug-iphoneos -include /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-fefzfktbpivozuejxatdidlduofu/AVCam_Prefix.pch -MMD -MT dependencies -MF /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamUtilities.d --serialize-diagnostics /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamUtilities.dia -c /Users/donal/develop/AVCam/Classes/AVCamUtilities.m -o /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamUtilities.o36"28ADCFF5-248A-4BF2-8860-A7AC932A0FC9-
+
+CCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamViewController.o /Users/donal/develop/AVCam/Classes/AVCamViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394710129.371440
+e394710129.500792
+r1
+xCompileC
+xbuild/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamViewController.o
+x/Users/donal/develop/AVCam/Classes/AVCamViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/donal/develop/AVCam/Classes/AVCamViewController.mc72c5f71cc86b741^d7338071cc86b741^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/donal/develop/AVCam/Classes/AVCamViewController.m0000000000000000^3087"CompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamViewController.o Classes/AVCamViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/donal/develop/AVCam    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-generated-files.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-own-target-headers.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-all-target-headers.hmap -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-project-headers.hmap -I/Users/donal/develop/AVCam/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources/armv7 -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources -F/Users/donal/develop/AVCam/build/Debug-iphoneos -include /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-fefzfktbpivozuejxatdidlduofu/AVCam_Prefix.pch -MMD -MT dependencies -MF /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamViewController.d --serialize-diagnostics /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamViewController.dia -c /Users/donal/develop/AVCam/Classes/AVCamViewController.m -o /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCamViewController.o36"B49E4E4E-56BF-4852-8BE3-D457F22AD5E2-
+
+CCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/main.o /Users/donal/develop/AVCam/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394703929.418552
+e394703929.438524
+r1
+xCompileC
+xbuild/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/main.o
+x/Users/donal/develop/AVCam/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Compile /Users/donal/develop/AVCam/main.m3a3d6b39b486b741^0b437039b486b741^---0#0#0#-19%DVTDocumentLocation2@49"file://localhost/Users/donal/develop/AVCam/main.m0000000000000000^2981"CompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/main.o main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/donal/develop/AVCam    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-generated-files.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-own-target-headers.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-all-target-headers.hmap -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-project-headers.hmap -I/Users/donal/develop/AVCam/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources/armv7 -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources -F/Users/donal/develop/AVCam/build/Debug-iphoneos -include /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-fefzfktbpivozuejxatdidlduofu/AVCam_Prefix.pch -MMD -MT dependencies -MF /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/main.dia -c /Users/donal/develop/AVCam/main.m -o /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/main.o36"4F035660-E230-4242-83F3-B26A12CBB27D-
+
+CCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamCaptureManager.o /Users/donal/develop/AVCam/Classes/AVCamCaptureManager.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394726377.085224
+e394726377.761680
+r1
+xCompileC
+xbuild/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamCaptureManager.o
+x/Users/donal/develop/AVCam/Classes/AVCamCaptureManager.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/donal/develop/AVCam/Classes/AVCamCaptureManager.mba1116e90b87b741^cefcc2e90b87b741^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/donal/develop/AVCam/Classes/AVCamCaptureManager.m0000000000000000^3094"CompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamCaptureManager.o Classes/AVCamCaptureManager.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/donal/develop/AVCam    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-generated-files.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-own-target-headers.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-all-target-headers.hmap -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-project-headers.hmap -I/Users/donal/develop/AVCam/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources/armv7s -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources -F/Users/donal/develop/AVCam/build/Debug-iphoneos -include /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-aicryrsxjjpddmffdiomililgylf/AVCam_Prefix.pch -MMD -MT dependencies -MF /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamCaptureManager.d --serialize-diagnostics /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamCaptureManager.dia -c /Users/donal/develop/AVCam/Classes/AVCamCaptureManager.m -o /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamCaptureManager.o36"93DA8CAC-CDC6-4948-B906-655DC7A9CC5C-
+
+CCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamRecorder.o /Users/donal/develop/AVCam/Classes/AVCamRecorder.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394703929.398227
+e394703929.477909
+r1
+xCompileC
+xbuild/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamRecorder.o
+x/Users/donal/develop/AVCam/Classes/AVCamRecorder.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/donal/develop/AVCam/Classes/AVCamRecorder.m5b086639b486b741^fb577a39b486b741^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/donal/develop/AVCam/Classes/AVCamRecorder.m0000000000000000^3058"CompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamRecorder.o Classes/AVCamRecorder.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/donal/develop/AVCam    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-generated-files.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-own-target-headers.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-all-target-headers.hmap -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-project-headers.hmap -I/Users/donal/develop/AVCam/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources/armv7s -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources -F/Users/donal/develop/AVCam/build/Debug-iphoneos -include /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-aicryrsxjjpddmffdiomililgylf/AVCam_Prefix.pch -MMD -MT dependencies -MF /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamRecorder.d --serialize-diagnostics /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamRecorder.dia -c /Users/donal/develop/AVCam/Classes/AVCamRecorder.m -o /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamRecorder.o36"673008B9-87ED-4B1D-BA2C-41FDBAAA2FF3-
+
+CCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamUtilities.o /Users/donal/develop/AVCam/Classes/AVCamUtilities.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394703929.581493
+e394703929.649501
+r1
+xCompileC
+xbuild/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamUtilities.o
+x/Users/donal/develop/AVCam/Classes/AVCamUtilities.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/donal/develop/AVCam/Classes/AVCamUtilities.m62f49439b486b741^4e45a639b486b741^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/donal/develop/AVCam/Classes/AVCamUtilities.m0000000000000000^3064"CompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamUtilities.o Classes/AVCamUtilities.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/donal/develop/AVCam    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-generated-files.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-own-target-headers.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-all-target-headers.hmap -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-project-headers.hmap -I/Users/donal/develop/AVCam/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources/armv7s -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources -F/Users/donal/develop/AVCam/build/Debug-iphoneos -include /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-aicryrsxjjpddmffdiomililgylf/AVCam_Prefix.pch -MMD -MT dependencies -MF /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamUtilities.d --serialize-diagnostics /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamUtilities.dia -c /Users/donal/develop/AVCam/Classes/AVCamUtilities.m -o /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamUtilities.o36"9BFC379C-1E57-4C7B-BD7D-F19ACB229BE5-
+
+CCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamViewController.o /Users/donal/develop/AVCam/Classes/AVCamViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394710129.372689
+e394710129.500627
+r1
+xCompileC
+xbuild/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamViewController.o
+x/Users/donal/develop/AVCam/Classes/AVCamViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/donal/develop/AVCam/Classes/AVCamViewController.mc47a5f71cc86b741^b3288071cc86b741^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/donal/develop/AVCam/Classes/AVCamViewController.m0000000000000000^3094"CompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamViewController.o Classes/AVCamViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/donal/develop/AVCam    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-generated-files.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-own-target-headers.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-all-target-headers.hmap -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-project-headers.hmap -I/Users/donal/develop/AVCam/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources/armv7s -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources -F/Users/donal/develop/AVCam/build/Debug-iphoneos -include /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-aicryrsxjjpddmffdiomililgylf/AVCam_Prefix.pch -MMD -MT dependencies -MF /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamViewController.d --serialize-diagnostics /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamViewController.dia -c /Users/donal/develop/AVCam/Classes/AVCamViewController.m -o /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCamViewController.o36"FB39FFD3-20AE-469C-8089-AB9B143D6D19-
+
+CCompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/main.o /Users/donal/develop/AVCam/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394703929.398206
+e394703929.417318
+r1
+xCompileC
+xbuild/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/main.o
+x/Users/donal/develop/AVCam/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Compile /Users/donal/develop/AVCam/main.m29086639b486b741^5ad56a39b486b741^---0#0#0#-19%DVTDocumentLocation2@49"file://localhost/Users/donal/develop/AVCam/main.m0000000000000000^2988"CompileC build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/main.o main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/donal/develop/AVCam    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-generated-files.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-own-target-headers.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-all-target-headers.hmap -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-project-headers.hmap -I/Users/donal/develop/AVCam/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources/armv7s -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources -F/Users/donal/develop/AVCam/build/Debug-iphoneos -include /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-aicryrsxjjpddmffdiomililgylf/AVCam_Prefix.pch -MMD -MT dependencies -MF /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/main.dia -c /Users/donal/develop/AVCam/main.m -o /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/main.o36"88D6D115-FC80-4AF2-B30E-4F90F33F40B1-
+
+CCompileXIB /Users/donal/develop/AVCam/Resources/AVCamViewController.xib
+s394703928.578706
+e394703929.086187
+r1
+xCompileXIB
+x/Users/donal/develop/AVCam/Resources/AVCamViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compiling /Users/donal/develop/AVCam/Resources/AVCamViewController.xiba4379438b486b741^76191639b486b741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/donal/develop/AVCam/Resources/AVCamViewController.xib0000000000000000^795"CompileXIB Resources/AVCamViewController.xib    cd /Users/donal/develop/AVCam    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/AVCamViewController.nib /Users/donal/develop/AVCam/Resources/AVCamViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"5FCFB601-EA52-4D46-B67B-929F32ED59FF-
+
+CCompileXIB /Users/donal/develop/AVCam/Resources/MainWindow.xib
+s394703928.578704
+e394703928.600828
+r1
+xCompileXIB
+x/Users/donal/develop/AVCam/Resources/MainWindow.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compiling /Users/donal/develop/AVCam/Resources/MainWindow.xiba4379438b486b741^01db9938b486b741^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/donal/develop/AVCam/Resources/MainWindow.xib0000000000000000^768"CompileXIB Resources/MainWindow.xib    cd /Users/donal/develop/AVCam    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/MainWindow.nib /Users/donal/develop/AVCam/Resources/MainWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"E768D258-1A01-4050-A133-C21401B7A69B-
+
+CCopyStringsFile /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/English.lproj/Localizable.strings Resources/English.lproj/Localizable.strings
+s394703928.578938
+e394703928.583559
+r1
+xCopyStringsFile
+x/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/English.lproj/Localizable.strings
+xResources/English.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy Resources/English.lproj/Localizable.stringsdd419438b486b741^666b9538b486b741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/donal/develop/AVCam/Resources/English.lproj/Localizable.strings0000000000000000^556"CopyStringsFile build/Debug-iphoneos/AVCam.app/English.lproj/Localizable.strings Resources/English.lproj/Localizable.strings    cd /Users/donal/develop/AVCam    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/English.lproj -- Resources/English.lproj/Localizable.strings36"196290D7-B92C-47E8-9ADE-39C146F2999D-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/AVCam.app/ResourceRules.plist
+s394703928.565509
+e394703928.569447
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/AVCam.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphoneos/AVCam.app/ResourceRules.plist0ed99038b486b741^38109238b486b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/ResourceRules.plist000000000080d041^698"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/AVCam.app/ResourceRules.plist    cd /Users/donal/develop/AVCam    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app36"FCCCB973-5C58-4A63-94CF-AB44FF6E9E0B-
+
+CCreateUniversalBinary /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/AVCam normal "armv7 armv7s"
+s394726377.926059
+e394726377.932902
+r1
+xCreateUniversalBinary
+x/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/AVCam
+xnormal
+xarmv7 armv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Create universal binary /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/AVCam8526ede90b87b741^67d6eee90b87b741^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/AVCam0000000000000000^591"CreateUniversalBinary build/Debug-iphoneos/AVCam.app/AVCam normal "armv7 armv7s"    cd /Users/donal/develop/AVCam    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    lipo -create /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCam /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCam -output /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/AVCam36"D205BC45-1204-4D8B-8B87-A15BE714BFE6-
+
+CGenerateDSYMFile /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app.dSYM /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/AVCam
+s394726377.951902
+e394726377.998990
+r1
+xGenerateDSYMFile
+x/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app.dSYM
+x/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/AVCam
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Generate /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app.dSYMaed8f3e90b87b741^7bbdffe90b87b741^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app.dSYM/0000000000000000^542"GenerateDSYMFile build/Debug-iphoneos/AVCam.app.dSYM build/Debug-iphoneos/AVCam.app/AVCam    cd /Users/donal/develop/AVCam    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/AVCam -o /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app.dSYM36"2928D283-DF77-4B13-AC88-A2D5F6946B2D-
+
+CLd /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCam normal armv7
+s394726377.783892
+e394726377.908433
+r1
+xLd
+x/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCam
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Link /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCam2fbec8e90b87b741^218fe8e90b87b741^---0#0#0#--1204"Ld build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCam normal armv7    cd /Users/donal/develop/AVCam    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/donal/develop/AVCam/build/Debug-iphoneos -F/Users/donal/develop/AVCam/build/Debug-iphoneos -filelist /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCam.LinkFileList -dead_strip -fobjc-link-runtime -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework QuartzCore -framework MediaPlayer -framework CoreMedia -framework CoreVideo -framework MobileCoreServices -framework AssetsLibrary -framework ImageIO -o /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7/AVCam36"CF55D064-8E4E-4EC0-8B21-C457F97266F2-
+
+CLd /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCam normal armv7s
+s394726377.767860
+e394726377.904607
+r1
+xLd
+x/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCam
+xnormal
+xarmv7s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Link /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCam5d52c5e90b87b741^3194e7e90b87b741^---0#0#0#--1209"Ld build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCam normal armv7s    cd /Users/donal/develop/AVCam    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/donal/develop/AVCam/build/Debug-iphoneos -F/Users/donal/develop/AVCam/build/Debug-iphoneos -filelist /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCam.LinkFileList -dead_strip -fobjc-link-runtime -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework QuartzCore -framework MediaPlayer -framework CoreMedia -framework CoreVideo -framework MobileCoreServices -framework AssetsLibrary -framework ImageIO -o /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/Objects-normal/armv7s/AVCam36"1FA2A942-90EA-4EEB-BA44-50C7CD231939-
+
+CProcessInfoPlistFile /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/Info.plist AVCam-Info.plist
+s394703928.565505
+e394703928.570793
+r1
+xProcessInfoPlistFile
+x/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/Info.plist
+xAVCam-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection24"Process AVCam-Info.plistfce49038b486b741^4b1f9238b486b741^---0#0#0#-19%DVTDocumentLocation2@59"file://localhost/Users/donal/develop/AVCam/AVCam-Info.plist0000000000000000^650"ProcessInfoPlistFile build/Debug-iphoneos/AVCam.app/Info.plist AVCam-Info.plist    cd /Users/donal/develop/AVCam    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AVCam-Info.plist -genpkginfo /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/ResourceRules.plist -o /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/Info.plist36"9A1F9185-E4A2-4C27-AB65-8D484B51BD53-
+
+CProcessPCH /Users/donal/Library/Developer/Xcode/DerivedData/AVCam-dhaybsvxhvherwbptcmodptmvqnz/Index/PrecompiledHeaders/AVCam_Prefix-fiteygkovrhwcnbonfjlceklmxne_ast/AVCam_Prefix.pch.pth AVCam_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/donal/Library/Developer/Xcode/DerivedData/AVCam-dhaybsvxhvherwbptcmodptmvqnz/Index/PrecompiledHeaders/AVCam_Prefix-hhybfghjcfgymsgwusqznwfimtel_ast/AVCam_Prefix.pch.pth AVCam_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-aicryrsxjjpddmffdiomililgylf/AVCam_Prefix.pch.pth AVCam_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394703929.094282
+e394703929.391411
+r1
+xProcessPCH
+x/var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-aicryrsxjjpddmffdiomililgylf/AVCam_Prefix.pch.pth
+xAVCam_Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Precompile AVCam_Prefix.pchc93a1839b486b741^ec326439b486b741^---0#0#0#-19%DVTDocumentLocation2@59"file://localhost/Users/donal/develop/AVCam/AVCam_Prefix.pch0000000000000000^3102"ProcessPCH /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-aicryrsxjjpddmffdiomililgylf/AVCam_Prefix.pch.pth AVCam_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/donal/develop/AVCam    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-generated-files.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-own-target-headers.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-all-target-headers.hmap -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-project-headers.hmap -I/Users/donal/develop/AVCam/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources/armv7s -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources -F/Users/donal/develop/AVCam/build/Debug-iphoneos --serialize-diagnostics /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-aicryrsxjjpddmffdiomililgylf/AVCam_Prefix.pch.dia -c /Users/donal/develop/AVCam/AVCam_Prefix.pch -o /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-aicryrsxjjpddmffdiomililgylf/AVCam_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-aicryrsxjjpddmffdiomililgylf/AVCam_Prefix.pch.d36"CFC9109F-A831-4598-9099-336F0F24D90C-
+
+CProcessPCH /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-fefzfktbpivozuejxatdidlduofu/AVCam_Prefix.pch.pth AVCam_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s394703929.094280
+e394703929.391447
+r1
+xProcessPCH
+x/var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-fefzfktbpivozuejxatdidlduofu/AVCam_Prefix.pch.pth
+xAVCam_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Precompile AVCam_Prefix.pch713b1839b486b741^e3386439b486b741^---0#0#0#-19%DVTDocumentLocation2@59"file://localhost/Users/donal/develop/AVCam/AVCam_Prefix.pch0000000000000000^3099"ProcessPCH /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-fefzfktbpivozuejxatdidlduofu/AVCam_Prefix.pch.pth AVCam_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/donal/develop/AVCam    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=4.0 -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-generated-files.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-own-target-headers.hmap -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-all-target-headers.hmap -iquote /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam-project-headers.hmap -I/Users/donal/develop/AVCam/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources/armv7 -I/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/DerivedSources -F/Users/donal/develop/AVCam/build/Debug-iphoneos --serialize-diagnostics /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-fefzfktbpivozuejxatdidlduofu/AVCam_Prefix.pch.dia -c /Users/donal/develop/AVCam/AVCam_Prefix.pch -o /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-fefzfktbpivozuejxatdidlduofu/AVCam_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/vv/x5n_jtzj7dj31b3k8zvm22ph0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AVCam_Prefix-fefzfktbpivozuejxatdidlduofu/AVCam_Prefix.pch.d36"A5086EF0-BC68-4EFC-A6AE-405AB2FB2AB8-
+
+CProcessProductPackaging "/Users/donal/Library/MobileDevice/Provisioning Profiles/5D454940-E274-4880-996F-E47E48F79165.mobileprovision" /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/embedded.mobileprovision
+s394703929.759835
+e394703929.762242
+r1
+xProcessProductPackaging
+x/Users/donal/Library/MobileDevice/Provisioning Profiles/5D454940-E274-4880-996F-E47E48F79165.mobileprovision
+x/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection190"ProcessProductPackaging "/Users/donal/Library/MobileDevice/Provisioning Profiles/5D454940-E274-4880-996F-E47E48F79165.mobileprovision" build/Debug-iphoneos/AVCam.app/embedded.mobileprovision4b93c239b486b741^e621c339b486b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/embedded.mobileprovision0000000000000000^646"ProcessProductPackaging "/Users/donal/Library/MobileDevice/Provisioning Profiles/5D454940-E274-4880-996F-E47E48F79165.mobileprovision" build/Debug-iphoneos/AVCam.app/embedded.mobileprovision    cd /Users/donal/develop/AVCam    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/donal/Library/MobileDevice/Provisioning Profiles/5D454940-E274-4880-996F-E47E48F79165.mobileprovision" -o /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app/embedded.mobileprovision36"D45631F8-7484-47CB-83F6-24F94C436AB3-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam.xcent
+s394703929.782230
+e394703929.784293
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+x/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection201"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam.xcent624ec839b486b741^2ac7c839b486b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam.xcent000000000080d041^694"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam.xcent    cd /Users/donal/develop/AVCam    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/donal/develop/AVCam/build/AVCam.build/Debug-iphoneos/AVCam.build/AVCam.xcent36"CEBF62CC-1335-45C0-81A7-01E60A19458F-
+
+CTouch /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app
+s394726378.039666
+e394726378.054768
+r1
+xTouch
+x/Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Touch /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app444f0aea0b87b741^14050eea0b87b741^---0#0#0#--339"Touch build/Debug-iphoneos/AVCam.app    cd /Users/donal/develop/AVCam    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/donal/develop/AVCam/build/Debug-iphoneos/AVCam.app36"B3FEAA62-38F1-4D39-9204-EB97820A6A52-
+

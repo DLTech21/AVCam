@@ -53,6 +53,9 @@
 static void *AVCamFocusModeObserverContext = &AVCamFocusModeObserverContext;
 
 @interface AVCamViewController () <UIGestureRecognizerDelegate>
+{
+    UIView *touchView;
+}
 @end
 
 @interface AVCamViewController (InternalMethods)
@@ -156,6 +159,15 @@ static void *AVCamFocusModeObserverContext = &AVCamFocusModeObserverContext;
 			AVCaptureFocusMode initialFocusMode = [[[captureManager videoInput] device] focusMode];
 			[newFocusModeLabel setText:[NSString stringWithFormat:@"focus: %@", [self stringForFocusMode:initialFocusMode]]];
 			[view addSubview:newFocusModeLabel];
+            
+            touchView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 80, 80)];
+            CALayer * layer = [touchView layer];
+            layer.borderColor = [[UIColor colorWithRed:232/255.0 green:232/255.0 blue:232/255.0 alpha:1] CGColor];
+            layer.borderWidth = 1.0f;
+            touchView.clipsToBounds=TRUE;
+            [touchView setHidden:YES];
+            [view addSubview:touchView];
+            
 			[self addObserver:self forKeyPath:@"captureManager.videoInput.device.focusMode" options:NSKeyValueObservingOptionNew context:AVCamFocusModeObserverContext];
 			[self setFocusModeLabel:newFocusModeLabel];
             [newFocusModeLabel release];
@@ -186,6 +198,7 @@ static void *AVCamFocusModeObserverContext = &AVCamFocusModeObserverContext;
     if (context == AVCamFocusModeObserverContext) {
         // Update the focus UI overlay string when the focus mode changes
 		[focusModeLabel setText:[NSString stringWithFormat:@"focus: %@", [self stringForFocusMode:(AVCaptureFocusMode)[[change objectForKey:NSKeyValueChangeNewKey] integerValue]]]];
+//        [touchView setHidden:YES];
 	} else {
         [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
     }
@@ -244,9 +257,9 @@ static void *AVCamFocusModeObserverContext = &AVCamFocusModeObserverContext;
     CGPoint pointOfInterest = CGPointMake(.5f, .5f);
     CGSize frameSize = [[self videoPreviewView] frame].size;
     
-    if ([captureVideoPreviewLayer isMirrored]) {
-        viewCoordinates.x = frameSize.width - viewCoordinates.x;
-    }    
+//    if ([captureVideoPreviewLayer isMirrored]) {
+//        viewCoordinates.x = frameSize.width - viewCoordinates.x;
+//    }    
 
     if ( [[captureVideoPreviewLayer videoGravity] isEqualToString:AVLayerVideoGravityResize] ) {
 		// Scale, switch x and y, and reverse x
@@ -310,14 +323,28 @@ static void *AVCamFocusModeObserverContext = &AVCamFocusModeObserverContext;
     return pointOfInterest;
 }
 
+-(void)hideTouchView
+{
+    touchView.hidden = YES;
+}
+
 // Auto focus at a particular point. The focus mode will change to locked once the auto focus happens.
 - (void)tapToAutoFocus:(UIGestureRecognizer *)gestureRecognizer
 {
+    CGPoint tapPoint = [gestureRecognizer locationInView:[self videoPreviewView]];
+    [touchView setFrame:CGRectMake(tapPoint.x-40, tapPoint.y-40, 80, 80)];
+    [touchView setHidden:NO];
+    [self performSelector:@selector(hideTouchView) withObject:nil afterDelay:1];
+    
     if ([[[captureManager videoInput] device] isFocusPointOfInterestSupported]) {
-        CGPoint tapPoint = [gestureRecognizer locationInView:[self videoPreviewView]];
         CGPoint convertedFocusPoint = [self convertToPointOfInterestFromViewCoordinates:tapPoint];
         [captureManager autoFocusAtPoint:convertedFocusPoint];
     }
+    if ([[[captureManager videoInput] device] isExposurePointOfInterestSupported]) {
+        CGPoint convertedFocusPoint = [self convertToPointOfInterestFromViewCoordinates:tapPoint];
+        [captureManager autoExposureAtPoint:convertedFocusPoint];
+    }
+    
 }
 
 // Change to continuous auto focus. The camera will constantly focus at the point choosen.
@@ -325,6 +352,10 @@ static void *AVCamFocusModeObserverContext = &AVCamFocusModeObserverContext;
 {
     if ([[[captureManager videoInput] device] isFocusPointOfInterestSupported])
         [captureManager continuousFocusAtPoint:CGPointMake(.5f, .5f)];
+    
+    if ([[[captureManager videoInput] device] isExposurePointOfInterestSupported])
+        [captureManager continuousExposureAtPoint:CGPointMake(.5f, .5f)];
+    
 }
 
 // Update button states based on the number of available cameras and mics
